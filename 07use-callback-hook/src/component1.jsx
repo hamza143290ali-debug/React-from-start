@@ -25,3 +25,9 @@ export default Component1;
 //remeber:
 //jab app component re-render hota hain to oske sare functions dobara create hote hain. means ke refrence change ho jate hain
 //so componetn ko jab refrence melta hian to oo be change ho jata hian. so then component be re-render karta hain
+
+
+
+//conclusion: 
+//useCallback hook ko ham tab use karte hain jab hame child component ko re-render hone se bachana hoo and also function ko freeze karna ho
+//then we use it. means ke function ke refrence ko change hone se bachana ho jto 
